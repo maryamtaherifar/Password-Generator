@@ -53,7 +53,7 @@ if 'Random Password' in password_types:
 if 'Memorable Password' in password_types:
     st.header('Memorable Password')
     number_of_words = st.slider("Number of Words", 1, 50, 4)
-    seperator = st.text_input("Choose a Seperator")
+    seperator = st.text_input("Choose a Seperator", value= '-')
     capitalize = st.toggle("Capital Words")
     random_lower_upper = st.toggle("Random Upper-Lower Case")
 
