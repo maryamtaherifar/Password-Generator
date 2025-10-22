@@ -9,6 +9,7 @@ A simple yet powerful password generator that creates three types of passwords:
 - Memorable Password – human-friendly word-based passwords
 
 This project includes both a terminal version and an interactive GUI built with Streamlit.
+
 ---
 ## 🚀 How to Run
 
